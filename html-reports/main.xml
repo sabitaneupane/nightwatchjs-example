@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="main"
+    errors="1" failures="0" hostname="" id="" package="main" skipped="1"
+    tests="2" time="0.005000" timestamp="Fri, 28 Sep 2018 05:15:54 GMT">
+  
+    <testcase name="Loading site" classname="main" time="0.005000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Main / Loading site]:
+
+  ReferenceError: data is not defined
+    at Object.Loading site (/Users/cloudfactory/Documents/cf-project/autotest-learn/tests/main/loadSite.js:4:12)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Signin" classname="main">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
