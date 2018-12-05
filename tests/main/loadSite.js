@@ -1,7 +1,7 @@
 module.exports = {
   'Loading site': function (browser) {
     browser
-      .url("http://www.nightwatch.com")
+      .url("http://nightwatchjs.org/")
       .pause(2000)
       browser.expect.element('body').to.be.present;
   },
