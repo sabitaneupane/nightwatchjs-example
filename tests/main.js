@@ -12,6 +12,6 @@ var extend = function (target) {
 var urlLoad = require("./main/loadSite.js");
 module.exports = extend(module.exports, urlLoad);
 
-
 var assertion = require("./testfile/assertion.js");
 module.exports = extend(module.exports, assertion);
+
