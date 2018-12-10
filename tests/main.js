@@ -15,3 +15,5 @@ module.exports = extend(module.exports, urlLoad);
 var assertion = require("./testfile/assertion.js");
 module.exports = extend(module.exports, assertion);
 
+var setvalue = require("./testfile/setvalue.js");
+module.exports = extend(module.exports, setvalue);

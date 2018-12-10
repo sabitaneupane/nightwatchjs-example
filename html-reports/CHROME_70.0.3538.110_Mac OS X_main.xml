@@ -5,16 +5,14 @@
 
   <testsuite name="main"
     errors="0" failures="0" hostname="" id="" package="main" skipped="0"
-    tests="2" time="6.282" timestamp="Thu, 06 Dec 2018 05:46:24 GMT">
+    tests="2" time="6.382" timestamp="Mon, 10 Dec 2018 03:21:12 GMT">
   
     <testcase name="Loading site" classname="main" time="6.241" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Find search input field" classname="main" time="0.04100" assertions="1">
-
-    
+    <testcase name="Find search input field" classname="main" time="0.1410" assertions="0">
     </testcase>
   
 
