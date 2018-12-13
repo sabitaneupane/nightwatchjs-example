@@ -17,3 +17,6 @@ module.exports = extend(module.exports, assertion);
 
 var setvalue = require("./testfile/setvalue.js");
 module.exports = extend(module.exports, setvalue);
+
+var keysEnter = require("./testfile/keysEnter.js");
+module.exports = extend(module.exports, keysEnter);
