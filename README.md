@@ -88,6 +88,28 @@ The test runner of expects a configuration file to be passed and the basic Night
 
 > ### Step 5: Writing test
 
+We have now installed Nightwatch, standalone Selenium server, and also driver for browsers. With all of these steps, now we are ready with all the tools to create end-to-end tests.
+
+Let’s add a new file in the tests folder, called main.js.
+
+
+```
+module.exports = {
+  'Searching nightwatch in youtube': function (browser) {
+    browser
+      .url("http://www.youtube.com/")
+      .pause(2000)
+      .setValue('#search' , "Nightwatch js")
+      .pause(2000)
+      .keys(browser.Keys.ENTER)
+      .pause(2000)
+  },
+  after: function (browser) {
+    browser
+      .end();
+  }
+};
+```
 
 
 > ### Step 6: Running the test
