@@ -114,7 +114,11 @@ module.exports = {
 
 > ### Step 6: Running the test
 
+To run your test, in your terminal do the command which will run the test file main.js.
 
+```
+$ nightwatch -t tests/main.js
+```
 
 
 
