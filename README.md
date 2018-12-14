@@ -42,13 +42,6 @@ or to you can run the tests:
 $ nightwatch -t tests/main.js 
 ```
 
-### Note:
-Currently, Chrome version 65 only supports chrome driver v2.36 and so consider doing the following:
-- `selenium-standalone install –drivers.chrome.version=2.36`
-- `selenium-standalone start –drivers.chrome.version=2.36`
-Reference Issues:
-- https://github.com/SeleniumHQ/selenium/issues/5576
-- https://github.com/nightwatchjs/nightwatch/issues/1743
 
 ### Setup Guides
 Specific WebDriver setup guides can be found on the [Docs website](http://nightwatchjs.org/getingstarted#browser-drivers-setup). 
