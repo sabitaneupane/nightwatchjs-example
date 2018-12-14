@@ -26,6 +26,7 @@ To run selenium standalone server
 $ selenium-standalone start
 ```
 
+
 > ### Step 2: Installing Chrome driver / geckodriver
 
 We want to run our test on Chrome, Safari, and Firefox, so we must also install their respective drivers and this driver will be used by Selenium to control the browsers.
@@ -43,6 +44,13 @@ $ npm install chromedriver --save-dev
 
 > ### Step 3: Installing Nightwatch
 
+Nightwatch.js is an easier way to write tests that running them using Selenium. To install it, cd into your project, and then install the module from npm to your dev-dependencies:
+
+```
+$ git clone https://github.com/nightwatchjs/nightwatch.git
+$ cd nightwatch
+$ npm install
+```
 
 
 > ### Step 4: Adding Configuration file into nightwatch project
