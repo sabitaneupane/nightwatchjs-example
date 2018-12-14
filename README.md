@@ -11,7 +11,7 @@ Nightwatch works with the Selenium standalone server so the first thing you need
 
 > # Step 1: Installing Selenium standalone server.
 
-> Step 2: Installing Chrome driver / geckodriver
+> ## Step 2: Installing Chrome driver / geckodriver
 
 > Step 3: Installing Nightwatch
 
