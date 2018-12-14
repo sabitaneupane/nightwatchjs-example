@@ -90,7 +90,7 @@ The test runner of expects a configuration file to be passed and the basic Night
 
 We have now installed Nightwatch, standalone Selenium server, and also driver for browsers. With all of these steps, now we are ready with all the tools to create end-to-end tests.
 
-Let’s add a new file in the tests folder, called main.js.
+Let’s add a new file in the tests folder, called sample.js.
 
 
 ```
@@ -114,10 +114,10 @@ module.exports = {
 
 > ### Step 6: Running the test
 
-To run your test, in your terminal do the command which will run the test file main.js.
+To run your test, in your terminal do the command which will run the test file sample.js.
 
 ```
-$ nightwatch -t tests/main.js
+$ nightwatch -t tests/sample.js
 ```
 
 
