@@ -28,6 +28,17 @@ $ selenium-standalone start
 
 > ### Step 2: Installing Chrome driver / geckodriver
 
+We want to run our test on Chrome, Safari, and Firefox, so we must also install their respective drivers and this driver will be used by Selenium to control the browsers.
+
+```
+$ brew install geckodriver
+```
+
+or
+
+```
+$ npm install chromedriver --save-dev
+```
 
 
 > ### Step 3: Installing Nightwatch
