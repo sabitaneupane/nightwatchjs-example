@@ -9,17 +9,41 @@ Nightwatch works with the Selenium standalone server so the first thing you need
 **https://selenium-release.storage.googleapis.com/index.html**
 
 
+
+
 > ### Step 1: Installing Selenium standalone server.
+
+Nightwatch works with the Selenium standalone server so at first we need to download the selenium standalone server.
+Prerequisite: make sure you have JDK installed.
+
+```
+$ npm install selenium-standalone@latest -g
+```
+
+To run selenium standalone server
+
+```
+$ selenium-standalone start
+```
 
 > ### Step 2: Installing Chrome driver / geckodriver
 
+
+
 > ### Step 3: Installing Nightwatch
+
+
 
 > ### Step 4: Adding Configuration file into nightwatch project
 
+
+
 > ### Step 5: Writing test
 
+
+
 > ### Step 6: Running the test
+
 
 
 
