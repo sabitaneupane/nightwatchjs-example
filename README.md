@@ -9,38 +9,12 @@ Nightwatch works with the Selenium standalone server so the first thing you need
 **https://selenium-release.storage.googleapis.com/index.html**
 
 
-### Install Selenium and start the server.
-
-```
-$ npm install selenium-standalone@latest -g
-$ selenium-standalone install
-$ selenium-standalone start
-```
-
-### Install Nightwatch
-
-Install Node.js and then:
-```
-$ git clone https://github.com/nightwatchjs/nightwatch.git
-$ cd nightwatch
-$ npm install
-```
-
-or just install it globally.
-
-```
- npm install nightwatch -g
-```
-
-
-### Run tests
-The tests for Nightwatch are written using [Mocha](http://mochajs.org/) exports interface so they can also be run with Nightwatch itself.
-
-or to you can run the tests:
-
-```
-$ nightwatch -t tests/main.js 
-```
+> Step 1: Installing Selenium standalone server.
+> Step 2: Installing Chrome driver / geckodriver
+> Step 3: Installing Nightwatch
+> Step 4: Adding Configuration file into nightwatch project
+> Step 5: Writing test
+> Step 6: Running the test
 
 
 ### Setup Guides
