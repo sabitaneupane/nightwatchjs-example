@@ -20,3 +20,6 @@ module.exports = extend(module.exports, setvalue);
 
 var keysEnter = require("./testfile/keysEnter.js");
 module.exports = extend(module.exports, keysEnter);
+
+var click = require("./testfile/click.js");
+module.exports = extend(module.exports, click);

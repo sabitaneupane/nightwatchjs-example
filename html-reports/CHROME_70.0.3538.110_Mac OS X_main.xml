@@ -5,20 +5,20 @@
 
   <testsuite name="main"
     errors="0" failures="0" hostname="" id="" package="main" skipped="0"
-    tests="4" time="13.30" timestamp="Thu, 13 Dec 2018 08:02:22 GMT">
+    tests="4" time="31.69" timestamp="Sat, 15 Dec 2018 14:08:10 GMT">
   
-    <testcase name="Loading site" classname="main" time="6.974" assertions="1">
+    <testcase name="Loading site" classname="main" time="7.359" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Find search input field" classname="main" time="2.134" assertions="0">
+    <testcase name="Find search input field" classname="main" time="2.146" assertions="0">
     </testcase>
   
-    <testcase name="Entering keys to search value" classname="main" time="2.066" assertions="0">
+    <testcase name="Entering keys to search value" classname="main" time="2.080" assertions="0">
     </testcase>
   
-    <testcase name="Resetting search input field" classname="main" time="2.130" assertions="0">
+    <testcase name="Clicking the searched content" classname="main" time="20.11" assertions="0">
     </testcase>
   
 
