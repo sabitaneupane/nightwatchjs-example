@@ -2,6 +2,7 @@
     "src_folders" : ["tests"],
     "output_folder" : "./html-reports",
     "page_objects_path" : "",
+    "globals_path" : "./tests/dev/data",
 
     "selenium" : {
       "start_process" : false,
